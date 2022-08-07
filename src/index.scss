@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  background-color: #e8e8e8;
+  min-height: 100vh;
+}
+
+@layer components {
+  h1 {
+    @apply text-5xl font-bold text-black text-center pb-20;
+  }
+
+  p {
+    @apply text-3xl font-medium text-black pb-10 last:pb-0;
+  }
+}
